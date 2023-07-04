@@ -1,0 +1,139 @@
+html,
+body {
+    margin: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(16, 221, 221);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 25%;
+    height: auto;
+    float: left;
+    background-color: rgb(89, 182, 182);
+}
+.menu a {
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: rgb(16, 221, 221);
+}
+.menu a:hover {
+    background-color: rgb(73, 233, 9);
+    padding: 5px;
+}
+.menu ul {
+    margin-top: 50px;
+    list-style: none;
+}
+.menu ul li {
+    padding: 6px;
+}
+.header {
+    display: block;
+    text-align: justify;
+    width: 100%;
+    color: rgb(10, 10, 10);
+}
+.header img {
+    width: 900px;
+    max-height: 300px;
+}
+.header p {
+    padding: 10px;
+    font-size: 22px;
+}
+h1 {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+mark{
+    padding: 10px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.servicos a {
+    text-decoration: none;
+    font-size: 14px;
+}
+.horarios {
+    text-align: justify;
+}
+.orcamento {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.orcamento:hover {
+    text-decoration: none;
+    background-color: rgb(7, 235, 204);
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    padding: 10px;
+}
+.sobre_nos {
+    display: flex;
+    width: 100%;
+}
+.sobre_nos img {
+    max-width: 400px;
+}
+.sobre {
+    width: 50%;
+    float: left;
+}
+.sobre01 {
+    width: 50%;
+}
+.maps {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.formulario input{
+    margin: 3px;
+    padding: 5px;
+    width: 30%;
+}
+
+.footer {
+    color: rgb(7, 7, 7);
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.footer p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 14px;
+}
+.footer p span {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 28px;
+}
